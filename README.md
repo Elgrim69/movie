@@ -18,8 +18,18 @@
     npm install
     ```
 
-## Installation de Sail
+## Création du fichier env et de la clef App
+1. Executer la commande suivante pour créer votre fichier env
+ ```bash
+   cp .env.example .env
+ ```
 
+2. Exectuer la commande suivante pour créer votre clef App
+```bash
+   php artisan key:generate
+```
+
+## Installation de Sail
 1. Exécutez la commande suivante pour installer Laravel Sail :
     ```bash
     php artisan sail:install
